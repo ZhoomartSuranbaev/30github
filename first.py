@@ -15,5 +15,4 @@ def displayData(data):
     print(f"Hello {name} from {location}!")
     print(f"In {year}, you will turn 100 years old.")
     print(f"If you save 5% of your current balance every month, in 10 years you will have ${future_balance:.2f}.")
-
 inputData()
