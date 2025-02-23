@@ -45,3 +45,4 @@ with open('orders_report.txt', 'w', encoding='utf-8') as f:
     for order in top_orders:
         f.write(
             f'ID: {order["id"]}, Customer: {order["customer"]}, Amount: {order["amount"]}, Status: {order["status"]}\n')
+c
